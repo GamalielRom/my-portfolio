@@ -6,7 +6,7 @@ export default function Hero(){
     return(
         <section id="home" className="relative flex flex-col md:flex-row items-center justify-center min-h-screen px-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 overflow-hidden">
             {/*Animated Background */}
-           <div className="w-[14rem] h-[18rem] rounded-lg overflow-hidden border-4 border-blue-500 shadow-lg flex-shrink-0">
+           <div className="w-[15rem] h-[120.7rem] rounded-lg overflow-hidden border-4 border-blue-500 shadow-lg flex-shrink-0">
                 <img
                 src="/images/other/gamaliel.jpg"
                 alt="gamaliel"
