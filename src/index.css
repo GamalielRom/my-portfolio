@@ -1,0 +1,37 @@
+/* ==== RESET BASICO ==== */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #111827; /* gray-900 */
+  color: white;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #93c5fd; 
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+}
+/*Light mode optional*/
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f9fafb;
+    color: #111827;
+  }
+}
